@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<CGTechToolLibrary Version="7.4">
+  <Information>
+    <InfoUserName>newst</InfoUserName>
+    <InfoDateTime>Sat Sep 25 19:27:21 2021</InfoDateTime>
+    <InfoVericutVersion>7.4.1</InfoVericutVersion>
+    <InfoBuildDate>October 16, 2015 </InfoBuildDate>
+    <InfoLibraryDate>10/16/15</InfoLibraryDate>
+    <InfoCustomerName>LND-7330757468@CS</InfoCustomerName>
+    <InfoCustomerID>085667</InfoCustomerID>
+    <InfoServerID>001</InfoServerID>
+    <InfoHostID>0b2ad42cfc71</InfoHostID>
+  </Information>
+  <ReportName>tools.htm</ReportName>
+  <Tools>
+    <Tool ID="1" Units="Millimeter" Stack="FALSE">
+      <Force_data Input_lead="0" lead_dis="0.000000" helix_angle="0.000000" radial_rake="0.000000" rake_ball="0.000000" force_method="0" material="0" edge_type="0" 
+	 feed_limit="0.000000" chip_thickness="0.000000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" start_angle="0.000000" feed_drop="0.000000" cutoutput="0" foceResolution="0" foceResolution_Distance="0.000000" 
+      		foce_unit="1" foce_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="0.000000" force_minfeedChange="0.000000" force_minfeedChange_def="1" force_mincutfeedrate="0.000000" 
+			 force_mincutfeedrate_def="1" force_aircutfeedrate="0.000000" force_aircutfeedrate_def="1" force_toolType="" force_edgeMaterial=""/>
+      <Description>em16</Description>
+      <Teeth>2</Teeth>
+      <Type>Milling</Type>
+      <Cutter>
+        <Apt ID="Cutter1" ParentID="Holder11" Type="FLAT END" >
+          <D>16</D>
+          <R>0</R>
+          <E>0</E>
+          <F>0</F>
+          <A>0</A>
+          <B>0</B>
+          <H>88.9</H>
+          <StickoutLength>63.5</StickoutLength>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+          <FluteLength>50.8</FluteLength>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>-114.3</Z>
+          </Origin>
+          <Alternate>off</Alternate>
+        </Apt>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder11" ParentID="" DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>20</X>
+            <Z>0</Z>
+          </Pt>
+          <Arc>
+            <X>20</X>
+            <Z>5</Z>
+            <Radius>5</Radius>
+          </Arc>
+          <Pt>
+            <X>25</X>
+            <Z>5</Z>
+          </Pt>
+          <Pt>
+            <X>25</X>
+            <Z>25</Z>
+          </Pt>
+          <Pt>
+            <X>30</X>
+            <Z>35</Z>
+          </Pt>
+          <Pt>
+            <X>30</X>
+            <Z>50</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>50</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>-50.8</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <DrivenPoint ID="1">
+        <Type>-1</Type>
+        <Radius>0</Radius>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-114.3</Z>
+      </DrivenPoint>
+    </Tool>
+    <Tool ID="2" Units="Millimeter" Stack="FALSE">
+      <Force_data Input_lead="0" lead_dis="0.000000" helix_angle="0.000000" radial_rake="0.000000" rake_ball="0.000000" force_method="0" material="0" edge_type="0" 
+	 feed_limit="0.000000" chip_thickness="0.000000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" start_angle="0.000000" feed_drop="0.000000" cutoutput="0" foceResolution="0" foceResolution_Distance="0.000000" 
+      		foce_unit="1" foce_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="0.000000" force_minfeedChange="0.000000" force_minfeedChange_def="1" force_mincutfeedrate="0.000000" 
+			 force_mincutfeedrate_def="1" force_aircutfeedrate="0.000000" force_aircutfeedrate_def="1" force_toolType="" force_edgeMaterial=""/>
+      <Description>bm12</Description>
+      <Teeth>2</Teeth>
+      <Type>Milling</Type>
+      <Cutter>
+        <Apt ID="Cutter1" ParentID="Holder1" Type="BALL END" >
+          <D>12</D>
+          <R>6</R>
+          <E>0</E>
+          <F>6</F>
+          <A>0</A>
+          <B>0</B>
+          <H>88.9</H>
+          <StickoutLength>63.5</StickoutLength>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+          <FluteLength>50.8</FluteLength>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>-114.3</Z>
+          </Origin>
+          <Alternate>off</Alternate>
+        </Apt>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder1" ParentID="" DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>20</X>
+            <Z>0</Z>
+          </Pt>
+          <Arc>
+            <X>20</X>
+            <Z>5</Z>
+            <Radius>5</Radius>
+          </Arc>
+          <Pt>
+            <X>25</X>
+            <Z>5</Z>
+          </Pt>
+          <Pt>
+            <X>25</X>
+            <Z>25</Z>
+          </Pt>
+          <Pt>
+            <X>30</X>
+            <Z>35</Z>
+          </Pt>
+          <Pt>
+            <X>30</X>
+            <Z>50</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>50</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>-50.8</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <DrivenPoint ID="2">
+        <Type>0</Type>
+        <Radius>0</Radius>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-114.3</Z>
+      </DrivenPoint>
+    </Tool>
+  </Tools>
+  <OptiPath>
+  </OptiPath>
+  <CSystems>
+  </CSystems>
+</CGTechToolLibrary>
